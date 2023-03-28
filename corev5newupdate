@@ -213,7 +213,7 @@ Rayfield:Notify({
 
 local players = game:GetService("Players")
 players.PlayerAdded:connect(function(player)
-   game.Players:Chat('h a player has joined")
+   game.Players:Chat("h a player has joined")
   --If you want, use a ui library to display a notif.
 end)
 
