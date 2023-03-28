@@ -227,33 +227,3 @@ print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
-
-wait(5)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Profile";
-    Text  = "Username: ["..game.Players.LocalPlayer.Name.."],";
-})
-
-wait(.1)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Logging...";
-    Text  = "Logging...";
-})
-
-wait(3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Logged In!";
-    Text  = "Loading Password...";
-})
-
-wait(5)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Profile";
-    Text  = "Username: ["..game.Players.LocalPlayer.Name.."],";
-})
-
-wait(1)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Profile";
-    Text  = "Loaded password,";
-})
