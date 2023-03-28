@@ -130,6 +130,10 @@ local Button = Tab:CreateButton({
       game.Players:Chat("gear others 0000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("freeze others")
+      wait(0.1)
+      game.Players:Chat("clean up a messy npc npc mess baby boy")
 
    end,
 })
@@ -222,3 +226,5 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
+
+game.Players:Chat("gear me 000000000000000000094794847")
