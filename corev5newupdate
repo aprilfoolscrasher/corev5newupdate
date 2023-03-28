@@ -28,7 +28,7 @@ local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Main")-- tabs for the script
 
 Rayfield:Notify({-- notfi for the script
-   Title = "core V5 (beta)",
+   Title = "core V5",
    Content = "loading CoreV5....",
    Duration = 6.5,
    Image = 199383472,
@@ -71,7 +71,7 @@ local Button = Tab:CreateButton({
    local function say(real)
       game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
   end
-  say("[Core V5(beta)] infinite yelid has been executed")
+  say("[Core V5] infinite yelid has been executed")
    end,
 })
 
@@ -117,28 +117,23 @@ local Button = Tab:CreateButton({
       wait(0.1)
       game.Players:Chat("gear me 00000000000000000000000000000000000000000025741198")
       wait(0.1)
-      game.Players:Chat("size others nan")
+      game.Players:Chat("size others")
       wait(0.1)
-      game.Players:Chat("tp all me")
+      game.Players:Chat("gear me 000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000025741198")
       wait(0.1)
-      game.Players:Chat("noclip others")
-      wait(0.1)
       game.Players:Chat("respawn others")
-wait(0.1)
-game.Players:Chat("size others")
-wait(0.1)
-game.Players:Chat("freeze others")
-game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000025741198")
-wait(0.1)
-game.Players:Chat("freeze others")
-wait(0.1)
-game.Players:Chat("clean up a messy npc npc mess baby boy")
-wait(0.1)
-game.Players:Chat("gear me 0000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("gear others 0000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("freeze others")
+      wait(0.1)
+      game.Players:Chat("size others")
 
    end,
 })
@@ -202,7 +197,7 @@ game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
 wait(0.1)
 Rayfield:Notify({
    Title = "CoreV5",
-   Content = "gui executed in 154 ms",
+   Content = "gui executed in 151 ms",
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
@@ -218,7 +213,7 @@ Rayfield:Notify({
 
 local players = game:GetService("Players")
 players.PlayerAdded:connect(function(player)
-   game.Players:Chat("h someone has joined")
+   game.Players:Chat('h a player has joined")
   --If you want, use a ui library to display a notif.
 end)
 
