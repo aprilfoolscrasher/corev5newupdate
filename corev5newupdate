@@ -199,7 +199,7 @@ Rayfield:Notify({
    Title = "CoreV5",
    Content = "gui executed in 151 ms",
    Duration = 6.5,
-   Image = 4483345998,
+   Image = 517933888,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "bet",
@@ -232,4 +232,28 @@ wait(5)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Profile";
     Text  = "Username: ["..game.Players.LocalPlayer.Name.."],";
+})
+
+wait(.1)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Logging...";
+    Text  = "Logging...";
+})
+
+wait(3)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Logged In!";
+    Text  = "Loading Password...";
+})
+
+wait(5)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Profile";
+    Text  = "Username: ["..game.Players.LocalPlayer.Name.."],";
+})
+
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Profile";
+    Text  = "Loaded password,";
 })
