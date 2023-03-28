@@ -213,7 +213,7 @@ Rayfield:Notify({
 
 local players = game:GetService("Players")
 players.PlayerAdded:connect(function(player)
-   game.Players:Chat('h a player has joined")
+   game.Players:Chat("h a player has joined")
   --If you want, use a ui library to display a notif.
 end)
 
@@ -226,4 +226,4 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
