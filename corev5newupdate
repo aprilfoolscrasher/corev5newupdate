@@ -226,5 +226,3 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse")
